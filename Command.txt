@@ -1,0 +1,3 @@
+tsc .\calculator.ts
+node .\calculator.js
+ts-node .\repeater.js
