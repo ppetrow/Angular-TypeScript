@@ -12,3 +12,6 @@ class Car
 
 let putCar = new Car("Volvo", "S60");
 console.log(putCar.Show());
+
+let putCar1 = new Car("Volvo", "S80");
+console.log(putCar1.Show());
