@@ -1,6 +1,6 @@
 type operator = "+" | "-" | "*" | "/";
 
-let calc = function (first: number, second: number, op: operator) {
+let calc = function (first: number, second: number, op:operator) {
     switch (op) {
         case "+":
             return first + second;
@@ -10,11 +10,14 @@ let calc = function (first: number, second: number, op: operator) {
             return first * second;
         case "/":
             return Math.floor(first / second);
-        default:
-            return "whatever";
     }
 }
 
 console.log(calc(3, 5, "+"));
 
-console.log(calc(24, 2581, "*"));
+console.log(calc(0x28, 12, "+"));
+
+console.log(calc(0x28, 12, "+"));
+
+
+console.log(calc(1, 2, "+") + 4);
